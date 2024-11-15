@@ -1,0 +1,339 @@
+* {margin: 0; padding: 0;}
+
+a { text-decoration: none; color: red;}
+
+p { margin-top: 10px; margin-bottom: 15px; font-size: 18px; color: #444;}
+
+.clearfix { overflow: auto; }
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.top-bar {
+    width: 1000px;
+    background: maroon;
+}
+
+.top-bar-links {
+    float: left;
+}
+
+.top-bar-links ul {
+    margin: 15px;
+    list-style: none;
+}
+
+.top-bar-links ul li {
+    padding: 0 10px;
+    display: inline-block;
+
+    border-right: 1px solid white;
+}
+
+.top-bar-links ul li:last-child {
+    border: 0;
+}
+
+.top-bar-links ul li  a {
+    color: white;
+}
+
+
+
+.site-search{
+    padding: 3px 10px;
+    margin: 15px;
+    float: right;
+    background: white;
+    border-radius: 10px;
+}
+
+.site-search input {
+    border: 0;
+    float: left;
+}
+
+.site-search button {
+    background: url(../img/icons/search.png) ;
+    width: 18px;
+    height: 18px;
+    border: 0;
+    float: right;
+}
+
+header .logo {
+    margin-top: 30px;
+    margin-left: 20px;
+    float: left;
+}
+
+header .logo h1 {
+    font-variant: small-caps;
+    font-size: 38px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    margin-bottom: 2px;
+}
+
+header .socialmedia ul { 
+    list-style: none;    
+}
+
+header .socialmedia ul li {
+    display: inline;
+}
+
+header .socialmedia {
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+header .socialmedia ul li a {
+    background: #444;
+    color: white;
+    padding: 6px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+header .socialmedia ul li a:hover{
+    background: orange;
+}
+
+nav {
+    background: linear-gradient(#111, #333, #111 );
+    background-color: #000;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style: none;
+    
+}
+
+nav ul li {
+    display: inline;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    margin: 10px 40px 10px 40px;
+    display: inline-block;
+}
+
+nav ul li a :hover {
+    color: red;
+}
+
+
+div.intro {
+    width: 970px;
+    margin: 15px;
+    margin-bottom: -5px;
+}
+
+div.intro div.introimage {
+    width: 400px;
+    float: left;
+}
+
+div.intro div.introtext {
+    width: 570px;
+    float: right;
+}
+
+div.introtext h1 {
+    margin-top: 100px;
+    font-size: 72px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+div.introtext p {
+    font-size: 18px;
+}
+
+div.introtext a {
+    float: right;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+
+
+div.homecontent {
+    width: 1000px;
+    background: #cfc9c9;
+    margin-bottom: 15px;
+}
+
+div.home-col {
+    margin-left: 15px;
+    width: 313.33px;
+    float: left;
+}
+
+div.home-col h2 {
+    margin: 30px 0px 30px 0px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+div.home-col a {
+    float: right;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+div.home-col img {
+    width: 313.33px;
+}
+
+div.services img {
+    width: 64px;
+    float: left;
+    margin-right: 15px;
+}
+
+div.services p {
+    margin-top: 0px;
+}
+
+div.services {
+    margin-bottom: 20px;
+}
+
+div.quote {
+    float: left;
+}
+
+div.quote i {
+    float: left;
+}
+
+div.quote h3{
+    margin-top: 20px;
+    margin-left: 15px;
+    float: left;
+}
+
+div.quote p{
+    clear: both;
+}
+
+footer {
+    width: 1000px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+div.footercol {
+    width: 231.25px;
+    float: left;
+    margin-left: 15px;
+    border-top: 1px solid black;
+}
+
+div.footercol h4{
+    text-transform: uppercase;
+    margin-top: 15px;
+    color: #444;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+div.tweet p{
+    font-size: 15px;
+}
+
+ul.quicklinks {
+    list-style: none;
+    margin-top: 15px;
+}
+
+ul.quicklinks li a {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    display: block;
+    border-bottom: 1px solid #444;
+    color: #666;
+    
+}
+
+ul.quicklinks li a :hover{
+    color: red;
+}
+
+div.blog-post{
+    clear: both;
+}
+
+div.blog-post h5{
+    font-size: 20px;
+}
+
+div.blog-post p{
+    font-size: 16px;
+}
+
+div.blog-post a.readmore {
+    float: right;
+}
+
+
+div.blog-post h5{
+    color: #444;
+}
+
+form.contact input, form.contact textarea{
+    background: #eee;
+    padding: 6px;
+    margin-bottom: 9px;
+    width: 221.25px;
+    border: none;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+
+form.contact textarea{
+    height: 130px;
+}
+
+form.contact button{
+    background: #eee;
+    color: red;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: inherit;
+    border-radius: 15px;
+}
+
+
+div.copyrights {
+    width: 1000px;
+    background: #eee;
+    float: left;
+}
+
+div.left {
+    margin: 20px;
+    float: left;
+}
+
+div.right {
+    margin: 20px;
+    float: right;
+}
